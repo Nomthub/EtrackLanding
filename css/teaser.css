@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+   }
+
+.navbar{ 
+    background:#419436; 
+    height: 40px;
+}
+
+.navbar .img {
+    height: 100%;
+}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: #84c424; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+p {
+    color: #419436;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100; 
+    margin-top: 0px;
+  }
+
+/*small {
+    color: #419436;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 50; 
+    margin-top: 0px;
+  }*/
+
+  body {
+    background-image: url('../images/EmissionTrack\ 5\ \(1\).png');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.overlay{
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.79);
+ }
+
+/* Styling for heading */
+h1 {
+    color: #84c424;
+    font-weight: 100;
+    font-size: 40px;
+    top: 30%;
+    margin: 40px 0px 20px;
+}
+
+.card .card-body {
+    background-color: #419436;
+}
+
+.card-title{
+    color: #ddedd0;
+    font-weight: 100;
+    margin: 1px 0px 20px;
+}
+
+.card-text{
+    color: #ddedd0;
+}
+
+.card-subtitle {
+    color: #a0c8ad;
+}
+
+.card-footer{
+    background-color: #ddedd0;
+}
+
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#clockdiv > div {
+    padding: 10px;
+    border-radius: 3px;
+    background: #419436;
+    display: inline-block;
+}
+#clockdiv div > span {
+    padding: 15px;
+    border-radius: 3px;
+    background: #84c424;
+    display: inline-block;
+}
+
+/* Style for visible text */
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}
